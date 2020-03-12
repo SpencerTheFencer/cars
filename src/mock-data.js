@@ -7,7 +7,7 @@ let mock = [{
   mpg: 32,
   seats: 5,
   drivetrain: "FWD",
-  image: "images/toyota/corolla.jpg"
+  image: "/images/toyota/corolla.jpg"
 },
 {
   id: 2,
@@ -18,7 +18,7 @@ let mock = [{
   mpg: 27,
   seats: 5,
   drivetrain: "FWD",
-  image: "images/toyota/camry.jpg"
+  image: "/images/toyota/camry.jpg"
 },
 {
   id: 3,
@@ -29,7 +29,7 @@ let mock = [{
   mpg: 28,
   seats: 5,
   drivetrain: "AWD",
-  image: "images/toyota/rav4.jpg"
+  image: "/images/toyota/rav4.jpg"
 },
 {
   id: 4,
@@ -40,7 +40,7 @@ let mock = [{
   mpg: 29,
   seats: 5,
   drivetrain: "FWD",
-  image: "images/toyota/c-hr.jpg"
+  image: "/images/toyota/c-hr.jpg"
 },
 {
   id: 5,
@@ -51,7 +51,7 @@ let mock = [{
   mpg: 29,
   seats: 5,
   drivetrain: "AWD",
-  image: "images/honda/cr-v.jpg"
+  image: "/images/honda/cr-v.jpg"
 },
 {
   id: 6,
@@ -62,7 +62,7 @@ let mock = [{
   mpg: 28,
   seats: 5,
   drivetrain: "FWD",
-  image: "images/honda/civic.jpg"
+  image: "/images/honda/civic.jpg"
 },
 {
   id: 7,
@@ -73,7 +73,7 @@ let mock = [{
   mpg: 30,
   seats: 5,
   drivetrain: "FWD",
-  image: "images/honda/accord.jpg"
+  image: "/images/honda/accord.jpg"
 },
 {
   id: 8,
@@ -84,7 +84,7 @@ let mock = [{
   mpg: 25,
   seats: 7,
   drivetrain: "AWD",
-  image: "images/honda/pilot.jpg"
+  image: "/images/honda/pilot.jpg"
 },
 {
   id: 9,
@@ -95,7 +95,7 @@ let mock = [{
   mpg: 26,
   seats: 7,
   drivetrain: "AWD",
-  image: "images/honda/odyssey.jpg"
+  image: "/images/honda/odyssey.jpg"
 },
 {
   id: 10,
@@ -106,7 +106,7 @@ let mock = [{
   mpg: 28,
   seats: 5,
   drivetrain: "FWD",
-  image: "images/hyundai/elantra.jpg"
+  image: "/images/hyundai/elantra.jpg"
 },
 {
   id: 11,
@@ -117,7 +117,7 @@ let mock = [{
   mpg: 28,
   seats: 5,
   drivetrain: "FWD",
-  image: "images/hyundai/kona.jpg"
+  image: "/images/hyundai/kona.jpg"
 },
 {
   id: 12,
@@ -128,7 +128,7 @@ let mock = [{
   mpg: 26,
   seats: 5,
   drivetrain: "AWD",
-  image: "images/hyundai/tucson.jpg"
+  image: "/images/hyundai/tucson.jpg"
 },
 {
   id: 13,
@@ -139,7 +139,7 @@ let mock = [{
   mpg: 21,
   seats: 7,
   drivetrain: "AWD",
-  image: "images/hyundai/palisade.jpg"
+  image: "/images/hyundai/palisade.jpg"
 },
 {
   id: 14,
@@ -150,7 +150,7 @@ let mock = [{
   mpg: 24,
   seats: 5,
   drivetrain: "AWD",
-  image: "images/hyundai/santafe.jpg"
+  image: "/images/hyundai/santafe.jpg"
 },
 {
   id: 15,
@@ -161,7 +161,7 @@ let mock = [{
   mpg: 24,
   seats: 5,
   drivetrain: "AWD",
-  image: "images/ford/edge.jpg"
+  image: "/images/ford/edge.jpg"
 },
 {
   id: 16,
@@ -172,7 +172,7 @@ let mock = [{
   mpg: 23,
   seats: 5,
   drivetrain: "AWD",
-  image: "images/ford/explorer.jpg"
+  image: "/images/ford/explorer.jpg"
 },
 {
   id: 17,
@@ -183,7 +183,7 @@ let mock = [{
   mpg: 15,
   seats: 5,
   drivetrain: "4WD",
-  image: "images/ford/f250.jpg"
+  image: "/images/ford/f250.jpg"
 },
 {
   id: 18,
@@ -194,7 +194,7 @@ let mock = [{
   mpg: 20,
   seats: 7,
   drivetrain: "AWD",
-  image: "images/ford/expedition.jpg"
+  image: "/images/ford/expedition.jpg"
 },
 {
   id: 19,
@@ -205,7 +205,7 @@ let mock = [{
   mpg: 20,
   seats: 5,
   drivetrain: "FWD",
-  image: "images/ford/mustang.jpg"
+  image: "/images/ford/mustang.jpg"
 },
 {
   id: 20,
@@ -216,7 +216,7 @@ let mock = [{
   mpg: 27,
   seats: 5,
   drivetrain: "AWD",
-  image: "images/ford/escape.jpg"
+  image: "/images/ford/escape.jpg"
 },
 {
   id: 21,
@@ -227,7 +227,7 @@ let mock = [{
   mpg: 18,
   seats: 7,
   drivetrain: "AWD",
-  image: "images/chevrolet/tahoe.jpg"
+  image: "/images/chevrolet/tahoe.jpg"
 },
 {
   id: 22,
@@ -238,7 +238,7 @@ let mock = [{
   mpg: 20,
   seats: 5,
   drivetrain: "FWD",
-  image: "images/chevrolet/camaro.jpg"
+  image: "/images/chevrolet/camaro.jpg"
 },
 {
   id: 23,
@@ -249,7 +249,7 @@ let mock = [{
   mpg: 18,
   seats: 5,
   drivetrain: "4WD",
-  image: "images/chevrolet/silverado.jpg"
+  image: "/images/chevrolet/silverado.jpg"
 },
 {
   id: 24,
@@ -260,7 +260,7 @@ let mock = [{
   mpg: 20,
   seats: 2,
   drivetrain: "RWD",
-  image: "images/chevrolet/corvette.jpg"
+  image: "/images/chevrolet/corvette.jpg"
 },
 {
   id: 25,
@@ -271,7 +271,7 @@ let mock = [{
   mpg: 27,
   seats: 5,
   drivetrain: "AWD",
-  image: "images/mazda/cx-5.jpg"
+  image: "/images/mazda/cx-5.jpg"
 },
 {
   id: 26,
@@ -282,7 +282,7 @@ let mock = [{
   mpg: 25,
   seats: 7,
   drivetrain: "AWD",
-  image: "images/mazda/cx-9.jpg"
+  image: "/images/mazda/cx-9.jpg"
 },
 {
   id: 27,
@@ -293,7 +293,7 @@ let mock = [{
   mpg: 30,
   seats: 5,
   drivetrain: "FWD",
-  image: "images/mazda/3.jpg"
+  image: "/images/mazda/3.jpg"
 }]
 
 export default mock;
