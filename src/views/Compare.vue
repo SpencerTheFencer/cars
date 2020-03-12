@@ -5,7 +5,7 @@
     <div class="comparison-labels">
     </div>
     <div class="car" v-for="car in comparedCars" :key="car.id">
-      <img class="car-image" :src="car.image">
+      <img class="car-image" :src="'/images/'+car.image">
       <h2 class="car-title info">{{car.year}} {{car.make}} {{car.model}}</h2>
       <h3 class="price info">{{car.price}}</h3>
       <h3 class="mpg info">{{car.mpg}}</h3>
