@@ -2,7 +2,7 @@
 <div class="wrapper">
   <div class="cars">
     <div class="car" v-for="car in cars" :key="car.id">
-      <img class="car-image" :src="car.image">
+      <img class="car-image" :src="'/images/'+car.image">
       <h2 class="car-title">{{car.year}} {{car.make}} {{car.model}}</h2>
       <div class="lower-section">
         <h3 class="price">{{car.price}}</h3>
