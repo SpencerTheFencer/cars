@@ -1,17 +1,26 @@
 <template>
 <div class="compare">
   <h1 class="title">Car Details/Comparison</h1>
-  <div v-if="comparedCars.length > 0" class="cars">
-    <div class="comparison-labels">
-    </div>
-    <div class="car" v-for="car in comparedCars" :key="car.id">
-      <img class="car-image" :src="'/images/'+car.image">
-      <h2 class="car-title info">{{car.year}} {{car.make}} {{car.model}}</h2>
-      <h3 class="price info">{{car.price}}</h3>
-      <h3 class="mpg info">{{car.mpg}}</h3>
-      <h3 class="seats info">{{car.seats}}</h3>
-      <h3 class="drivetrain info">{{car.drivetrain}}</h3>
-      <button class="remove-from-compare-button button" @click="removeFromCompare(car)">Remove from Compare</button>
+  <div v-if="comparedCars.length > 0">
+    <div class="cars">
+      <div class="car">
+        <img class="car-image">
+        <h1 class="car-title info">Car</h1>
+        <h1 class="price info">Price</h1>
+        <h1 class="mpg info">MPG</h1>
+        <h1 class="seats info">Seats</h1>
+        <h1 class="drivetrain info"></h1>
+        <div class="remove-from-compare-button"></div>
+      </div>
+      <div class="car" v-for="car in comparedCars" :key="car.id">
+        <img class="car-image" :src="'/images/'+car.image">
+        <h2 class="car-title info">{{car.year}} {{car.make}} {{car.model}}</h2>
+        <h3 class="price info">{{car.price}}</h3>
+        <h3 class="mpg info">{{car.mpg}}</h3>
+        <h3 class="seats info">{{car.seats}}</h3>
+        <h3 class="drivetrain info">{{car.drivetrain}}</h3>
+        <button class="remove-from-compare-button button" @click="removeFromCompare(car)">Remove from Compare</button>
+      </div>
     </div>
   </div>
   <div v-else>
@@ -42,6 +51,10 @@ export default {
 .title {
   font-family: 'Bellota Text', cursive;
   margin-top: 40px;
+}
+
+.comparison-labels {
+  display: flex;
 }
 
 .cars {
