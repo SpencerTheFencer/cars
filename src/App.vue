@@ -24,7 +24,7 @@
     <router-view/>
     <div class="footer">
     <div class="github-section">
-      <a href="https://github.com/SpencerTheFencer/CS260/tree/master/cars" target="_blank" class="github-link">Github repository</a>
+      <a href="https://github.com/SpencerTheFencer/cars" target="_blank" class="github-link">Github repository</a>
     </div>
   </div>
   </div>
